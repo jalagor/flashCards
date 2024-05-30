@@ -63,8 +63,50 @@
   font-size: 16px;
 }
 
+/* Card Styles */
+.cardContainer{
+  margin: 2.5% 0;
+  box-sizing: border-box;
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
 
+.card{
+  /* background-color: black; */
+  box-shadow: 1px 1px 2px royalblue;
+  width: 270px;
+  height: 300px;
+  margin: 10px;
+  color: grey;
+  background-color: aliceblue;
+}
 
+.card h3, p{
+  font-family: 'Roboto';
+  text-align: start;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+
+.pupImg{
+  box-shadow: 1px 1px 2px royalblue;
+  background-color: aqua;
+  height: 150px;
+  margin-bottom:15px ;
+  background-size: cover;
+}
+
+.pup1{
+  background-image: url('https://ilovedogscute.com/wp-content/uploads/2022/09/Great-Pyrenees-Puppies-Teddy-Great-Pyrenees-puppy-04.jpg');
+}
+.pup2{
+  background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-03/puppy-dog-mc-230321-03-b700d4.jpg');
+}
+.pup3{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/46/German_shepherd_puppy.jpg');
+}
 
 
 /* Footer Styles */
@@ -76,8 +118,6 @@
   padding: 20px 0;
   box-sizing: border-box;
   background-color: royalblue;
-  position: absolute;
-  bottom: 0;
 }
 
 .innerFooter{
