@@ -66,3 +66,82 @@
 }
 
 /* Footer Styles */
+
+.footer{
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: royalblue;
+  position: absolute;
+  bottom: 0;
+}
+
+.innerFooter{
+  display: block;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+}
+
+.innerFooter .logoContainer{
+  width: 35%;
+  float: left;
+  height: 100%;
+  display: block;
+}
+
+.innerFooter .logoContainer img{
+  width: 65px;
+  height: auto;
+}
+
+.innerFooter .footerThird {
+  width: calc(21.666666666667% - 20px);
+  margin-right: 10px;
+  float: left;
+  height: 100%;
+}
+
+.innerFooter .footerThird:last-child {
+  margin-right: 0;
+}
+
+.innerFooter .footerThird h2{
+  font-family: roboto;
+  color: white;
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.innerFooter .footerThird a{
+  font-family: roboto;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.innerFooter .footerThird li{
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 20px;
+}
+
+
+@media(max-width: 700px){
+  .footer .innerFooter{
+    width: 90%;
+  }
+
+  .innerFooter .logoContainer,
+  .innerFooter .footerThird{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
