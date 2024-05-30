@@ -26,7 +26,6 @@
   float: left;
 }
 .logoContainer h1 {
-  /* text-shadow: 1px 1px 2px black ; */
   color: white;
   height: 100%;
   display: table-cell;
@@ -64,13 +63,17 @@
   font-size: 16px;
 }
 
+
+
+
+
 /* Footer Styles */
 
 .footer{
   width: 100vw;
   display: block;
   overflow: hidden;
-  padding: 70px 0;
+  padding: 20px 0;
   box-sizing: border-box;
   background-color: royalblue;
   position: absolute;
@@ -110,7 +113,7 @@
 .innerFooter .footerThird h2{
   font-family: roboto;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   display: block;
   width: 100%;
   margin-bottom: 20px;
@@ -119,7 +122,7 @@
 .innerFooter .footerThird a{
   font-family: roboto;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 200;
   display: block;
   width: 100%;
