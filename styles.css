@@ -6,6 +6,8 @@
   list-style: none;
 }
 
+/* Header Styles */
+
 .headerContainer {
   width: 100%;
   height: 80px;
@@ -39,22 +41,22 @@
   font-weight: 200;
 }
 
-.navigation {
+.headerNavigation {
   float: right;
   height: 100%;
 }
 
-.navigation a {
+.headerNavigation a {
   height: 100%;
   display: table;
   float: left;
   padding: 0px 20px;
 }
 
-.navigation a:last-child {
+.headerNavigation a:last-child {
   padding-right: 0;
 }
-.navigation a li {
+.headerNavigation a li {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
@@ -62,3 +64,5 @@
   font-family: "roboto";
   font-size: 16px;
 }
+
+/* Footer Styles */
